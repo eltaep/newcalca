@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+.s1{
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+padding: 20px;
+flex-direction: column;
+
+
+}
+.def, .copy{
+    font-size: 30px;
+    background-color: red;
+    padding: 10px;
+
+}
+input{
+    background-color: #ab3807;
+    padding: 10px;
+    font-size: 30px;
+    direction: rtl;
+    color: white;
+    width: 100%;
+    
+}
+.startend{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+body{
+    background-color: #444;
+}
+
+.readers{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding:0 20px ;
+
+    direction: rtl;
+    
+}
+.readers .person{
+    background-color: saddlebrown;
+    color: white;
+    font-size: 24px;
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.allnames{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* pa */
+    font-size: 25px;
+    margin: 20px;
+    background-color: red;
+    padding: 10px;
+}
+.vis{
+    visibility: hidden;
+}
+.btns{
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 40px; */
+    /* padding: 20px; */
+
+width: 100%;
+}
+.rem{
+    background-color: red;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.myname{
+    background-color: rgb(45, 24, 11);
+    padding: 10px;
+}
+.anything p{
+    background-color: red;
+    padding: 10px ;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    direction: rtl;
+    
+
+}
+.anything{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    margin: 20px;
+}
